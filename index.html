@@ -16,7 +16,7 @@
   <div class="swiper-container swiper-fullscreen">
     <div class="swiper-wrapper">
       <!--首屏-->
-      <div class="swiper-slide slide1">
+      <div class="swiper-slide slide1"  data-hash="index_slide1">
       <div class="swiper-container swiper-fullbg">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="images/bg_01_01.jpg" alt=""></div>
@@ -185,7 +185,7 @@
         </div>  
       </div>
       <!--最新情报-->
-      <div class="swiper-slide slide2">
+      <div class="swiper-slide slide2" >
       	<div class="swiper-container swiper-fullbg">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="images/bg_01_01.jpg" alt=""></div>
@@ -199,7 +199,7 @@
           <div class="title">最新情報</div>
           <div class="content">
             <div class="img">
-            	<a href="newsinfo.html"><img src="images/img5.jpg" alt="">
+            	<a href="news_info.html"><img src="images/img5.jpg" alt="">
                 <div class="abs">
                   <h2 class="ellipsis">を手に入れた者たち</h2>
                   <p>2020.06/08</p>
@@ -230,7 +230,7 @@
        
       </div>
       <!--6图标-->
-      <div class="swiper-slide slide3">
+      <div class="swiper-slide slide3"  >
        	<div class="swiper-container swiper-fullbg">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="images/bg_01_01.jpg" alt=""></div>
@@ -380,11 +380,11 @@
                 <div class="closed"><img src="images/close.png" alt=""></div>
                 </div>-->
                 <div class="pre_btn">
-                    <div >TOP</div>
-                    <div >NEWS</div>
-                    <div >WORLD</div>
-                     <div >SYSTEM</div>
-                      <div >SPECIAL</div>
+                    <div class="link01"><a href="javascript: void(0)">TOP</a></div>
+                    <div class="link02"><a href="javascript: void(0)">NEWS</a></div>
+                    <div class="link03"><a href="javascript: void(0)">WORLD</a></div>
+                    <div ><a href="system.html">SYSTEM</a></div>
+                    <div><a href="special.html">SPECIAL</a></div>
 					<div class="closed"><img src="images/close.png"></div>
                     
                 </div>
@@ -432,8 +432,9 @@
     <script src="js/swiper.animate1.0.3.min.js"></script>
   <script src="js/common.js"></script>
   <script>
-    var swiper = new Swiper('.swiper-fullscreen', {
-	  slidesPerView : 'auto',
+    var Mainswiper = new Swiper('.swiper-fullscreen', {
+    slidesPerView : 'auto',
+    hashNavigation: true,
       direction: 'vertical',
       mousewheel: true,
       pagination: {

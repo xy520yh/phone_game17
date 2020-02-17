@@ -240,6 +240,7 @@ img.line1{width:0.43rem; height:0.39rem;}
 .pre_box.active{opacity: 1;pointer-events: auto;}
 
 .pre_btn div{margin-bottom:0.8rem; cursor:pointer; font-size: 0.46rem; text-align: center;}
+.pre_btn div a{color: #fff;}
 .pre_btn .closed img{width:0.49rem; height: 0.49rem;}
 .pre_btn .closed{width: 100%;display:flex;flex-flow:column nowrap; justify-content:center; align-items:center;}
 /* 首页--第2屏 */
@@ -705,3 +706,4 @@ scrollbar-base-color:#1c6497;
 
 .role_world .title{text-align:center; line-height:1rem; height:1rem; color:#fff;text-shadow:0 0 0.10rem rgba(151,79,56,0.7); color:rgba(161,110,110,1);font-size: 0.40rem;flex-shrink: 0;}
 
+.slide1 .img:hover{transform: translate(0.06rem,0.06rem);}

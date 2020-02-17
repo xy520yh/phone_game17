@@ -115,21 +115,50 @@ $(function () {
   
     //点击pre
   $('body').on("click", '#xf', function () {
-    $('.pre_box').toggleClass('active')
+    $('.pre_box').toggleClass('active');
+    
   });
   
-  
-  
+$('.link01').click(function(){
+     $('.pre_box').toggleClass('active');
+        Mainswiper.slideTo(0, 1000, false);
+ });
+ $('.link04').click(function(){
+  $('.pre_box').toggleClass('active');
+    
+});
+ $('.link02').click(function(){
+        $('.pre_box').toggleClass('active');
+          Mainswiper.slideTo(1, 1000, false);
+});
+$('.link03').click(function(){
+        $('.pre_box').toggleClass('active');
+          Mainswiper.slideTo(2, 1000, false);
+ });
    //点击pre中的btn
 	 $('body').on("click", '.nav', function () {
 		
-		$('.pre_box').toggleClass('active')
+    $('.pre_box').toggleClass('active');
+   
 	  });
 	
 	  $('body').on("click", '.pre_btn .closed', function () {
 		$('.pre_box').removeClass('active')
 	  });
-	  
+ 
+    
+    // $(document).on("click", function (e) {
+    //   var ele = $(e.target).parents('.info_box').length;
+    //   var ele2 = $(e.target).parents('.kefu_box').length;
+    //   if (e.target.id == "info_icon" || ele2 || ele || $(e.target).hasClass("info_box") || $(e.target).hasClass("kefu_box")) {
+  
+    //   } else {
+    //     $('.info_box').removeClass('active')
+    //   }
+    // }); 
+    
+
+
 		
 	$('.text').focus(function(){
 		if($(this).val()=='メールアドレスを入力してください'){
