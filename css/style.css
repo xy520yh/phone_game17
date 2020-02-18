@@ -301,7 +301,7 @@ img.line1{width:0.43rem; height:0.39rem;}
   background-size:0.94rem auto ;opacity: 0;transition: all 0.3s;}
   .special_list .item .img:hover:after{opacity: 1;}
   /* .news_list,.news_info{position: absolute;top:1.34rem;left:0.2rem;right:0.4rem; bottom:1.8rem; } */
-.news_list .item{width: 46%;float: left; margin-right:3%;margin-bottom: 3%;height:calc(50vh - 7rem/2);}
+.news_list .item{width: 44%;float: left; margin-right:2%;margin-bottom: 3%;margin-left:2%;height:calc(50vh - 3.5rem);}
 .news_list .item a{display: block;width:3.2rem;max-width: 100%;position: relative;}
 .news_list .item.t2 a{ margin:0 auto;}
 .news_list .item.t3 a{float: right;}
@@ -310,7 +310,7 @@ img.line1{width:0.43rem; height:0.39rem;}
 .news_list .item .img img{width:100%;height:100%;object-fit: cover;}
 .news_list .item .img:hover:after{opacity: 1;}
 .news_list .item .note{ 
-display:flex;justify-content: flex-start;flex-direction: column;padding:0.2rem 0.25rem;height:calc(50vh - 7rem/2 - 1.71rem);}
+display:flex;justify-content: flex-start;flex-direction: column;padding:0.2rem 0.25rem;height:calc(50vh - 5.21rem);}
 .news_list .item .date{font-size:0.2rem;}
  .news_list{margin-top:1.4rem;}
 .scroll_swiper{height:100%;position: relative;}
@@ -330,11 +330,20 @@ display:flex;justify-content: flex-start;flex-direction: column;padding:0.2rem 0
     background:none;
 }
  
+.video_box .content .note img{display: block;max-width: 30vh;max-height: 60vh;margin: 0 auto;}
+.video_box .content .closed{padding-bottom:0.2rem;}
+.video_box .content .closed img{width:0.34rem;height: 0.34rem;}
+.video_box .content .note p{font-size:0.3rem;color:#fff;padding:1rem;}
+
+.video_box.active,.role_box.active{ display: block;}
+.video_box .content,.role_box .content{position: absolute;left:50%;top:50%;transform: translate(-50%,-50%);display: flex;align-items:flex-end;justify-content: center;
+  flex-direction: column;}
+.note iframe{width:6rem; height: 4rem;}
 
 
 
 /* 
-.note iframe{width:6rem; height: 4rem;}
+
 .scroll_swiper{width:100%;height:100%;z-index:0;border:1px solid #f00;}
 .scroll_swiper swiper-slide{height: 100%;}
   .particles{position: fixed;bottom:0;left:0;}
@@ -358,10 +367,7 @@ display:flex;justify-content: flex-start;flex-direction: column;padding:0.2rem 0
 .role .content dd{  display: none;}
 .role .content dd:first-child{ display: block;} 
 
-.video_box .content .note img{display: block;max-width: 30vh;max-height: 60vh;margin: 0 auto;}
-.video_box .content .closed{padding-bottom:0.2rem;}
-.video_box .content .closed img{width:0.34rem;height: 0.34rem;}
-.video_box .content .note p{font-size:0.3rem;color:#fff;padding:1rem;}*/
+*/
 
 
 /* .news_box_left{right:auto;left:1.5rem;}
@@ -538,13 +544,7 @@ a.login_a:hover{background-image:url(../images/login_h.png);}
 .role .speech p.japanese_name{ right: 9px;}*/
 
 
-/*.video_box.active,.role_box.active{ display: block;}
-.video_box .content,.role_box .content{position: absolute;left:50%;top:50%;transform: translate(-50%,-50%);display: flex;align-items:flex-end;justify-content: center;
-  flex-direction: column;}
-.video_box .content .note img{display: block;max-width: 50vh;max-height: 80vh;margin: 0 auto;}
-.video_box .content .closed{padding-bottom:0.2rem;}
-.video_box .content .closed img{width:0.34rem;}
-.video_box .content .note p{font-size:0.3rem;color:#fff;padding:1rem;}*/
+/**/
 /* 预注册三个按钮栏 */
 
 
