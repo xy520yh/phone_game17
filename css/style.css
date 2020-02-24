@@ -355,7 +355,11 @@ background-size:0.94rem auto ;opacity: 0;transition: all 0.3s;}
   flex-direction: column;}
 .note iframe{width:6rem; height: 4rem;}
 
-
+.news_list {margin-bottom:0.9rem;}
+.news_list .item{height:calc(33.33vh - 0.76rem);margin-bottom:0;padding-bottom:0.1rem;}
+.news_list .item .note{height:auto;}
+.news_list .item a{width:100%;height:100%;}
+.news_list .item .img{height:calc(100% - 1rem)}
 
 /* 
 
