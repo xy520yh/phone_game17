@@ -271,13 +271,13 @@ img.line1{width:0.43rem; height:0.39rem;}
 .role_box .content img{width:0.34rem; height: 0.34rem;}
 /* system */
 .clothes_section{ height:100%;overflow:hidden; position:relative;width:96%;}
-.feature-info{position:relative;top:1.4rem; height: 5.8rem;}
+.feature-info{position:relative;margin-top:1.4rem;height: 4.2rem;}
 .feature-info-next.swiper-button-disabled, .feature-info-prev.swiper-button-disabled{opacity: .35;cursor: auto;pointer-events: none;}
 .feature-info .swiper-pagination-bullet{width:0.15rem;height:0.16rem;display:inline-block;background:none;transform: rotate(45deg); border:1px solid #fff;margin-right: 0.3rem;}
 .feature-info .swiper-pagination1,.feature-info .swiper-pagination2,.feature-info .swiper-pagination3,.feature-info .swiper-pagination4{height: 1rem; position:absolute;top:3rem;z-index: 3;}
 .feature-info img{width:6.6rem; height: 3.68rem; border: 1px solid #fff;margin-left: 0.4rem;z-index: 2;}
 .feature-info .swiper-pagination-bullet-active{opacity:1;background:#fff}
-.system_note{width:6rem; height:4rem;margin-left: 0.8rem;}
+.system_note{width:6rem;margin-left: 0.8rem;z-index:111;height:5.7rem;margin-top:0.5rem;}
  .notea{width:100%;height:100%;padding:0.2rem 0; color:rgba(255,255,255,1);font-size: 0.18rem;}
  .notea .scroll{height:100%;overflow-y: auto;padding:0 0.15rem;}
 .clothes_section .swiper_dock_list{overflow:hidden; width:6rem; height:0.65rem;  position:absolute; top:0.4rem; left: 0.4rem;z-index: 11;}
