@@ -233,30 +233,6 @@ img.line1{width:0.43rem; height:0.39rem;}
 .role_bg5{background: url(../images/role_bg5_01.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; }
 .role_bg6{background: url(../images/role_bg6_01.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; }
 .role_world .title{text-align:center; position:absolute; top:0.1rem;left:50%; margin-left:-1.5rem;width:3rem;line-height:1rem; height:1rem; color:#fff;text-shadow:0 0 0.10rem rgba(151,79,56,0.7); color:rgba(161,110,110,1);font-size: 0.40rem;flex-shrink: 0;}
-.note1{background: url(../images/role_tc1_01.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note2{background: url(../images/role_tc1_02.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note3{background: url(../images/role_tc1_03.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note4{background: url(../images/role_tc1_04.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note5{background: url(../images/role_tc2_01.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note6{background: url(../images/role_tc2_02.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note7{background: url(../images/role_tc2_03.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note8{background: url(../images/role_tc2_04.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note9{background: url(../images/role_tc3_01.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note10{background:url(../images/role_tc3_02.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note11{background:url(../images/role_tc3_03.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note12{background:url(../images/role_tc3_04.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note13{background:url(../images/role_tc4_01.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note14{background:url(../images/role_tc4_02.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note15{background:url(../images/role_tc4_03.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note16{background:url(../images/role_tc4_04.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note17{background:url(../images/role_tc5_01.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note18{background:url(../images/role_tc5_02.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note19{background:url(../images/role_tc5_03.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note20{background:url(../images/role_tc5_04.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note21{background:url(../images/role_tc6_01.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note22{background:url(../images/role_tc6_02.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note23{background:url(../images/role_tc6_03.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
-.note24{background:url(../images/role_tc6_04.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
 
 .video_box,.role_box{z-index:100;width: 100%;position: fixed;height:100%;left:0;top:0;display: none;z-index: 1111;}
 .video_box.active,.role_box.active{ display: block;}
@@ -265,12 +241,12 @@ img.line1{width:0.43rem; height:0.39rem;}
 
 .note1{background: url(../images/role_tc1_01.png) no-repeat 0 0; background-size: 100% 100%;width:7.48rem; height: 8.82rem;}
 .role_box .content .note{width:7.48rem;height:8.82rem;background-size: 100% 100%;position: relative;}
-.role_box .content .note .div{position: absolute;right:1rem;top:2.68rem;width:3.8rem;font-size:0.16rem;color:#393939;}
+.role_box .content .note .div{position: absolute;right:1rem;top:2.68rem;width:3.3rem;font-size:0.16rem;color:#393939;}
 .role_box .content .name{font-size:0.5rem;font-weight: bold;padding:0.05rem 0;white-space: nowrap; text-align: right;margin-bottom:0.2rem;}
 .role_box .content .cv{display: flex;align-items: center;justify-content: flex-end;margin-bottom:0.3rem;}
 .role_box .content .cv img{width:0.4rem;}
-.role_box .content .tag{color:#fff;background: #393939;padding:0 0.1rem;display: inline-block;margin-right:0.1rem;}
-.role_box .content .desc{padding-top:0.2rem;font-size:0.14rem;}
+.role_box .content .tag{color:#fff;background: #393939;padding:0 0.2rem;display: inline-block;margin-right:0.1rem;}
+.role_box .content .desc{padding-top:0.2rem;font-size:0.24rem;}
 .role_box .content td{padding:0.05rem 0; font-size:0.1rem;}
 .role_box .content .closed{position: absolute;right:1.2rem;top:-0.6rem;z-index:1;width:0.34rem; height: 0.34rem;}
 .role_box .content img{width:0.34rem; height: 0.34rem;}
@@ -283,7 +259,7 @@ img.line1{width:0.43rem; height:0.39rem;}
 .feature-info img{width:6.6rem; height: 3.68rem; border: 1px solid #fff;margin-left: 0.4rem;z-index: 2;}
 .feature-info .swiper-pagination-bullet-active{opacity:1;background:#fff}
 .system_note{width:6rem;margin-left: 0.8rem;z-index:111;height:5.7rem;margin-top:0.5rem;}
- .notea{height:100%;padding:0.2rem 0; color:rgba(255,255,255,1);font-size: 0.18rem;overflow-y: auto;flex: 1;}
+ .notea{height:80%;padding:0.2rem 0; color:rgba(255,255,255,1);font-size: 0.18rem;overflow-y: auto;flex: 1;}
  /* .notea .scroll{height:100%;overflow-y: auto;} */
 
  .notea::-webkit-scrollbar {width: 0.1rem;height:0.1rem;}
