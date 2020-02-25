@@ -245,7 +245,7 @@ img.line1{width:0.43rem; height:0.39rem;}
 .role_box .content .name{font-size:0.5rem;font-weight: bold;padding:0.05rem 0;white-space: nowrap; text-align: right;margin-bottom:0.2rem;}
 .role_box .content .cv{display: flex;align-items: center;justify-content: flex-end;margin-bottom:0.3rem;}
 .role_box .content .cv img{width:0.4rem;}
-.role_box .content .tag{color:#fff;background: #393939;padding:0 0.4rem;display: inline-block;margin-right:0.1rem;}
+.role_box .content .tag{color:#fff;background: #393939;padding:0 0.2rem;display: inline-block;margin-right:0.1rem;}
 .role_box .content .desc{padding-top:0.2rem;font-size:0.24rem;}
 .role_box .content td{padding:0.05rem 0; font-size:0.21rem;}
 .role_box .content .closed{position: absolute;right:1.2rem;top:-0.6rem;z-index:1;width:0.34rem; height: 0.34rem;}
