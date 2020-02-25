@@ -362,7 +362,7 @@
                               </div>
                               <div class="note">
                               <div class="date">2020.06.06</div>
-                              <p class="ellipsis">11本当にただの夢なんでしょう本当にただの夢なんでしょうか</p>
+                              <p class="ellipsis">22本当にただの夢なんでしょう本当にただの夢なんでしょうか</p>
                               </div>
                           </a>
                           </div>
@@ -694,7 +694,7 @@
                               </div>
                               <div class="note">
                               <div class="date">2020.06.06</div>
-                              <p class="ellipsis">11本当にただの夢なんでしょう本当にただの夢なんでしょうか</p>
+                              <p class="ellipsis">33本当にただの夢なんでしょう本当にただの夢なんでしょうか</p>
                               </div>
                           </a>
                           </div>
@@ -1025,7 +1025,7 @@
                 </li>
                 <li>
                     <a href="javascript:void(0)">
-                      <div class="icon on">
+                      <div class="icon">
                         
                         <h2>その他</h2>
                         <P></P>
@@ -1154,20 +1154,20 @@ $(function(){
 	
 	(function(){
 		var clothesswiper = new Swiper('.clothes_wrap', {
-			loop : true,
+			//loop : true,
 			 on: {
 				slideChangeTransitionStart: function(){
 				  $(".clothes_wrap .swiper_dock_list li .icon").removeClass('on');
-				  $(".clothes_wrap .swiper_dock_list li .icon").eq((this.activeIndex-1)%$(".clothes_wrap .swiper_dock_list li").length).addClass('on');
+				  $(".clothes_wrap .swiper_dock_list li .icon").eq((this.activeIndex)%$(".clothes_wrap .swiper_dock_list li").length).addClass('on');
 				},
 			 },
 			
 		});
 		$(".clothes_wrap .swiper_dock_list li").click(function(){
-			var index = $(this).index()+1;
+			var index = $(this).index();
 			clothesswiper.slideTo(index);
 			$(".clothes_wrap .swiper_dock_list li .icon").removeClass('on');
-			$(".clothes_wrap .swiper_dock_list li .icon").eq(index-1).addClass('on');
+			$(".clothes_wrap .swiper_dock_list li .icon").eq(index).addClass('on');
 		});	
 	})();
 });

@@ -13,7 +13,9 @@ window.onresize = function(){
 };
 
 
+
 $(function(){
+
 	 //点击任意位置，关闭info弹出框
   $(document).on("click", function (e) {
     var ele = $(e.target).parents('.info_box').length;

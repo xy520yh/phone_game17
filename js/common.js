@@ -68,6 +68,10 @@ $(function () {
 	
 	
 	
+  $('.slide1 .img').on("mouseover",function(){
+    $(this).addClass('hover1')
+
+  })
 	
 	 //点击任意位置，关闭info弹出框
   $(document).on("click", function (e) {
@@ -186,42 +190,28 @@ $('.link03').click(function(){
 	
 
 	//var indexb=$('.gallery-top a').index(this);
-var aLi=$('.gallery-top a');
 //console.log(aLi.length)
-for(var i=0;i<aLi.length;i++){
-	//console.log(aLi[i])
-		aLi[i].index=i;
-		aLi[i].onclick=function(){
-		//var indexb=$('.gallery-top a').index(this);
+  //console.log(aLi[i])
+  		//var indexb=$('.gallery-top a').index(this);
 		//console.log(indexb)
 			//console.log(this.index);
-			$('.role_'+((this.index)+1)+'').css('display','block');
-			
+// var aLi=$('.gallery-top a');
+// for(var i=0;i<aLi.length;i++){
+// 		aLi[i].index=i;
+// 		aLi[i].onclick=function(){
+// 			$('.role_'+((this.index)+1)+'').css('display','block');
 
-		}
-}
+// 		}
+// }
 
-$('.content').find('.closed').click(function(){
-		for(var i=0;i<aLi.length;i++){
-			$('.role_'+(i+1)+'').css('display','none');
-		}
+// $('.content').find('.closed').click(function(){
+// 		for(var i=0;i<aLi.length;i++){
+// 			$('.role_'+(i+1)+'').css('display','none');
+// 		}
 
-	})
+// 	})
 
-var music_v = ['music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3','music/1.mp3']
-//console.log(music_v.length)
-
-var voiceAudio = new Audio();
-$('.role_box').find('#playVoice').click(function(){
-	for(var i=0;i<music_v.length;i++){
-	  voiceAudio.src = music_v[i];
-     voiceAudio.play();
-	}
-
-})	
-   
-
-   
+  
  
 });
 

@@ -23,7 +23,7 @@
                           <div class="swiper-slide">
                             <div class="news_list special_list relative">
                                 <div class="item t1">
-                                    <a href="#" data-url="images/i5_4.png">
+                                    <a href="#" data-url="images/i1_1.png">
                                     <div class="img">
                                       
                                       <img src="images/img6.jpg" alt="">
@@ -58,7 +58,7 @@
                                   </a>
                                 </div>
                                 <div class="item t2">
-                                  <a href="#" data-url="images/ditu_img2">
+                                  <a href="#" data-url="images/ditu_img2.png">
                                     <div class="img">
                                       
                                       <img src="images/img6.jpg" alt="">
@@ -355,14 +355,14 @@
                       <div class="swiper-slide">
                         <div class="news_list special_list relative">
                             <div class="item t1">
-                                <a href="#" data-url="images/i5_4.png">
+                                <a href="#" data-url="images/i1_2.png">
                                 <div class="img">
                                   
                                   <img src="images/img6.jpg" alt="">
                                 </div>
                                 <div class="note">
                                   <div class="date">2020.06.06</div>
-                                  <p class="ellipsis">11本当にただの夢なんでしょう本当にただの夢なんでしょうか</p>
+                                  <p class="ellipsis">1222222本当にただの夢なんでしょう本当にただの夢なんでしょうか</p>
                                 </div>
                               </a>
                             </div>
@@ -687,14 +687,14 @@
                       <div class="swiper-slide">
                         <div class="news_list special_list relative">
                             <div class="item t1">
-                                <a href="#" data-url="images/i5_4.png">
+                                <a href="#" data-url="images/i1_3.png">
                                 <div class="img">
                                   
                                   <img src="images/img6.jpg" alt="">
                                 </div>
                                 <div class="note">
                                   <div class="date">2020.06.06</div>
-                                  <p class="ellipsis">11本当にただの夢なんでしょう本当にただの夢なんでしょうか</p>
+                                  <p class="ellipsis">33333当にただの夢なんでしょう本当にただの夢なんでしょうか</p>
                                 </div>
                               </a>
                             </div>
@@ -1025,7 +1025,7 @@
                 </li>
                 <li>
                     <a href="javascript:void(0)">
-                      <div class="icon on">
+                      <div class="icon">
                         
                         <h2>イベント</h2>
                         <P></P>
@@ -1154,20 +1154,20 @@ $(function(){
 	
 	(function(){
 		var clothesswiper = new Swiper('.clothes_wrap', {
-			loop : true,
+			//loop : true,
 			 on: {
 				slideChangeTransitionStart: function(){
 				  $(".clothes_wrap .swiper_dock_list li .icon").removeClass('on');
-				  $(".clothes_wrap .swiper_dock_list li .icon").eq((this.activeIndex-1)%$(".clothes_wrap .swiper_dock_list li").length).addClass('on');
+				  $(".clothes_wrap .swiper_dock_list li .icon").eq((this.activeIndex)%$(".clothes_wrap .swiper_dock_list li").length).addClass('on');
 				},
 			 },
 			
 		});
 		$(".clothes_wrap .swiper_dock_list li").click(function(){
-			var index = $(this).index()+1;
+			var index = $(this).index();
 			clothesswiper.slideTo(index);
 			$(".clothes_wrap .swiper_dock_list li .icon").removeClass('on');
-			$(".clothes_wrap .swiper_dock_list li .icon").eq(index-1).addClass('on');
+			$(".clothes_wrap .swiper_dock_list li .icon").eq(index).addClass('on');
 		});	
 	})();
 });
