@@ -222,13 +222,16 @@
 	  */ 
  var gallerySwiper = new Swiper('.gallery-top',{
     spaceBetween: 10,
+  
 	  hashNavigation: true,
     thumbs: {
       swiper: {
         el: '.gallery-thumbs',
+        slideToClickedSlide:true,
         spaceBetween: 10,
         slidesPerView:3,
         freeMode: true,
+      
         watchSlidesVisibility: true,
         watchSlidesProgress: true,
         navigation: {

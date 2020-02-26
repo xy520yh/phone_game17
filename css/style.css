@@ -259,7 +259,7 @@ img.line1{width:0.43rem; height:0.39rem;}
 .feature-info img{width:6.6rem; height: 3.68rem; border: 1px solid #fff;margin-left: 0.4rem;z-index: 2;}
 .feature-info .swiper-pagination-bullet-active{opacity:1;background:#fff}
 .system_note{width:6rem;margin-left: 0.8rem;z-index:111;height:5.7rem;margin-top:0.5rem;}
- .notea{height:80%;padding:0.2rem 0; color:rgba(255,255,255,1);font-size: 0.18rem;overflow-y: auto;flex: 1;}
+ .notea{height:80%;color:rgba(255,255,255,1);font-size: 0.18rem;overflow-y: auto;flex: 1;}
  /* .notea .scroll{height:100%;overflow-y: auto;} */
 
  .notea::-webkit-scrollbar {width: 0.1rem;height:0.1rem;}
